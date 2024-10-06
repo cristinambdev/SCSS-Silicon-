@@ -211,6 +211,9 @@ contact-box, .faqs .container .contact-area .contact-box {
   .hero .phone-images {
     display: block;
   }
+  .hero .phone-images .img-back {
+    right: 130px;
+  }
 }
 @media (min-width: 1400px) {
   .phone-images .img-back {
@@ -463,7 +466,7 @@ header .container .header-right {
 .app-features .container .credit-card {
   position: absolute;
   left: 30px;
-  bottom: 320px;
+  top: 120px;
 }
 
 @media (min-width: 768px) {
