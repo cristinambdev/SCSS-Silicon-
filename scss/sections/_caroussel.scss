@@ -1,0 +1,87 @@
+.explanation {
+    background: $color-bg2;
+    text-align: center;
+    justify-content: center;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+
+    h2 {
+        @include display7;
+        margin-bottom: 2rem;
+    }
+
+    .caroussel-mobile {
+  
+    h4 {
+      @include display8;
+      padding-bottom: 1rem;
+    }
+  
+    p {
+      @include medium-text;
+      text-align: center;
+      line-height: 1.6rem;
+    }
+}
+ 
+.caroussel-tablet, .caroussel-desktop {
+    display:none;
+  }
+}  
+
+ @include tablet {
+
+.explanation {
+    .caroussel-mobile {
+      display:none;
+    }
+
+    .caroussel-tablet {
+      display: block;
+    }
+    
+    .text-explanation {
+        width: 60%;
+        margin: 2rem auto;
+
+        h4 {
+            @include display8;
+            padding-bottom: 1rem;
+        }
+      } 
+
+      h2 {
+        @include display6;
+    }
+}
+}
+  
+  
+@include desktop {
+
+.explanation {
+    .caroussel .caroussel-tablet {
+        display:none;
+      }
+
+      .caroussel .caroussel-desktop {
+        display: block;
+        gap: 2rem; 
+  
+      .img-container {
+        @include flexbox;
+        gap: 4rem;
+      }
+    }
+    .text-explanation {
+        width: 50%;
+    }
+
+    h2 {
+    @include display5;
+    }
+    } 
+  
+}
+
+

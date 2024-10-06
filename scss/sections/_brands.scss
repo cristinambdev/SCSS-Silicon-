@@ -1,0 +1,34 @@
+#brands {
+    display:none;
+    padding: 2rem 0;
+  
+    .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 1.5rem;
+  }
+  }
+  
+  .brand-box {
+    @extend logo-box;
+  }
+
+  @include tablet { 
+  
+    #brands {
+      display: block;
+  }
+  
+    #brand-3, #brand-6 {
+    display: none;
+  }
+  
+  }
+  
+  @include desktop { 
+
+    #brand-3, #brand-6 {
+      display: flex;
+    }
+  }

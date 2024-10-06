@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>SCSS Silicon</title>
+    <link rel="stylesheet" href="./scss/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="wrapper">
+    
+    <!--HEADER-->
+
+    <header>
+        <div class="container">
+            <div class="header-left">
+
+            <a href="index.html"><img src="..\images light version\mainlogo.svg" alt="logo silicon"></a>
+                
+            <nav class="navbar">
+                <a class="nav-link" href="#">Features</a>
+            </nav>
+        </div>
+        
+        <div class="header-right">
+                <div class="mode-toggle">
+                    <span class="label">Dark mode</span>
+                    <label for="darkmode-toggle" id="darkmode-switch" class="switch" aria-label ="darkmode switch">   <!--from w3schools-->
+                        <input id="darkmode-toggle" type="checkbox">
+                        <span class="slider round"></span>
+                    </label>
+                </div>
+
+                <a class="btn-primary">
+                    <img class="icon-btn-primary" src="images light version\icon-singIn_button.svg" alt="icon person">
+                    <p>Sign in / up</p>
+                </a>
+
+                <a class="mobile-btn" aria-controls="main-menu" aria-expanded="false" aria-label="toggle navigation">
+                    <img class="icon-menu" src="images light version\Button - Toggle navigation.svg" alt="icon">                </button>     
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+
+        <!--SECTION HERO-->
+        <section class="hero" aria-label="showcase">
+            <div class="container">
+                <div class="headline">
+                    <h1>Manage All Your <span>Money in One App</span></h1>
+                </div>
+                <div class="content">
+                    <p>We offer you a new generation of the mobile banking.
+                     <span>Save, spend & manage money in your pocket.</span></p>
+                    
+                    <div class="market-buttons">
+                        <a class="btn-app" href="#">
+                            
+                            <img src="images light version\appstore_buttonconten.svg" alt="">
+                        </a>
+                        <a class="btn-app" href="#">
+                            <img src="images light version\googleplay_buttoncontent.svg" alt="">
+                        </a>
+                    </div>
+    
+                    <a class="discover-more-btn" href="#">
+                        <img src="images light version\next-btn-section1.svg" alt="">
+                        <span>Discover more</span>
+                    </a>
+                </div>
+    
+                <div class="phone-images">
+                    <img class="img-back" src="images light version\iPhone_mybudget_desktop.svg" alt="iphone showing a budget expense timeline">
+                    <img class="img-front" src="images light version\iPhone_yourcards_desktop.svg" alt="iphone showing a credit card">
+                </div>
+        </div>
+        </section>
+
+
+    <!--SECTION BRANDS-->
+    <section id="brands">
+        <div class="container">
+                <div id="brand-1" class="brand-box">
+                    <img src="images light version\logoipsum.svg" alt="company logo for logo">
+                </div>
+                <div id="brand-2" class="brand-box">
+                    <img src="images light version\logoipsum2.svg" alt="company logo for logoipsum">
+                </div>
+                <div id="brand-3" class="brand-box">
+                    <img src="images light version\logoipsum3.svg" alt="company logo for logoipsum">
+                </div>
+                <div id="brand-4" class="brand-box">
+                    <img src="images light version\logoipsum4.svg" alt="company logo for logoipsum">
+                </div>
+                <div id="brand-5" class="brand-box">
+                    <img src="images light version/logoipsum5.svg" alt="company logo for logoipsum">
+                </div>
+                <div id="brand-6" class="brand-box">
+                    <img src="images light version\logoipsum6.svg" alt="company logo for logoipsum">
+                </div>
+        </div>
+
+    </section>
+
+<!--SECTION FEATURES-->
+<section class="app-features">
+    <div class="container">
+        <div class="phone-yourcards">
+            <img class="phone" src="images light version\iPhone12_yourcards.svg" alt="phone showing transaction detail">
+            <img class="credit-card" src="images light version\creditcard_yourcards.svg" alt="credit card">
+        </div>
+        <div class="features-content">
+            <div class="heading">
+                <h2>App Features</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin volutpat mollis egestas. 
+                    Nam luctus facilisis ultrices. Pellentesque volutpat ligula oc est. Mattis fermentum, at nec lacus.</p>
+            </div>
+            <div class="items">
+                <div class="features feature-1">
+                    <div class="features-icon">
+                        <img src="images light version\vektor_creditcard.svg" alt="credit card icon">
+                    </div>
+                    <div class="features-text">
+                        <h5>Easy Payments</h5>
+                        <p>Id mollis consectetur congue egestas egestas suspendisse blandit justo.</p>
+                    </div>
+                </div>
+
+                <div class="features feature-2">
+                    <div class="features-icon">
+                        <img src="images light version\vektor_security.svg" alt="shield icon">
+                    </div>
+                    <div class="features-text">
+                        <h5>Data Security</h5>
+                        <p>Augue pulvinar justo, fermentum
+                            fames aliquam accumsan vestibulum
+                            non.</p>
+                    </div>
+                </div>
+
+                <div class="features feature-3">
+                    <div class="features-icon">
+                        <img src="images light version\vektor_statistics.svg" alt="statistics icon">
+                    </div>
+                    <div class="features-text">
+                        <h5>Cost Statistics</h5>
+                        <p>Mattis urna ultricies non amet, purus
+                            in auctor non. Odio vulputate ac nibh.</p>
+                    </div>
+                </div>
+
+                <div class="features feature-4">
+                    <div class="features-icon">
+                        <img src="images light version\vektor_support.svg" alt="chatting bubbles icon">
+                    </div>
+                    <div class="features-text">
+                        <h5>Support 24/7</h5>
+                        <p>A elementum, imperdiet enim, pretium
+                            etiam facilisi in aenean quam mauris.</p>
+                    </div>
+                </div>
+
+                <div class="features feature-5">
+                    <div class="features-icon">
+                        <img src="images light version\vektor_cashback.svg" alt="wallet icon">
+                    </div>
+                    <div class="features-text">
+                        <h5>Regular Cashback</h5>
+                        <p>Sit facilisis arcu, fermentum
+                            vestibulum arcu elementum imperdiet
+                            eleifend.</p>
+                    </div>
+                </div>
+
+                <div class="features feature-6">
+                    <div class="features-icon">
+                        <img src="images light version\vektor_standards.svg" alt="smiley face icon">
+                    </div>
+                    <div class="features-text">
+                        <h5>Top Standards</h5>
+                        <p>Faucibus maecenas lorem
+                            cursus nibh. Sociis risus id. Sit
+                            facilisis dolor arcu.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<!--SECTION EXPLANATION-->
+<section class="explanation">
+    <div class="container">
+        <h2>How Does it Work?</h2>
+        <div class="caroussel">
+            <div class="caroussel-mobile">
+
+                <img class="caroussel-phoneTwo" src="images light version\caroussel_tablet_phone2.svg" alt="">
+
+                <div class="text-explanation" id="text-mobile">
+                    <h4>Transfers to people from your contact list</h4>
+                    <p>Proin volutpat mollis egestas. Nam luctus facilisis
+                        ultrices. Pellentesque volutpat ligula est. Mattis
+                        fermentum, at nec lacus. </p>
+                </div>
+            </div>
+            
+            <div class="caroussel-tablet">
+                
+                <img class="caroussel-1" src="images light version\caroussel_tablet_phone1.svg" alt="">
+                <img class="caroussel-2" src="images light version\caroussel_tablet_phone2.svg" alt="">
+                <img class="caroussel-3" src="images light version\caroussel_tablet_phone3.svg" alt="">
+               
+                <div class="text-explanation" id="text-tablet">
+                    <h4>Step 3. Transfers to people from your contact list</h4>
+                    <p>Proin volutpat mollis egestas. Nam luctus facilisis ultrices.
+                        Pellentesque volutpat ligula est. Mattis fermentum, at nec
+                        lacus. </p>
+                </div>
+
+            </div>
+
+            <div class="caroussel-desktop">
+                <div class="img-container">
+                    <img class="caroussel-1" src="images light version\caroussel_desktop_phone1.svg" alt="phone showing a timeline with expenses">
+                    <img class="caroussel-2" src="images light version\caroussel_desktop_phone2.svg" alt="phone showing a credit card and a list of transaction">
+                    <img class="caroussel-3" src="images light version\caroussel_desktop_phone3.svg" alt="phone showing a list of money recipients">
+                </div>
+                <div class="text-explanation" id="text-desktop">
+                    <h4>Latest transaction history</h4>
+                    <p>Enim, et amet praesent pharetra. Mi non ante hendrerit amet sed. Arcu sociis tristique 
+                            quisque hac in consectetur condimentum. </p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+</main>
+<!--SECTION DETAILED EXPLANATION-->
+
+<section class="transfers">
+    <div class="container">
+        
+        <div class="left-explanation">
+            
+            <div class="text-top">
+                <h3>Make your money <br>transfer simple and clear</h3>
+                <ul>
+                    <li>
+                        <p><img class="check" src="images light version\bx-check-circle.svg" alt=""> 
+                            Banking transactions are free for you 
+                        </p> 
+                    </li>
+                        
+                    <li>
+                        <p><img class="check" src="images light version\bx-check-circle.svg" alt=""> 
+                            No monthly cash commission
+                        </p>
+                    </li>                        
+                    <li>
+                        <p><img class="check" src="images light version\bx-check-circle.svg" alt=""> 
+                            Manage payments and transactions online
+                        </p>
+                    </li>                     
+                </ul>
+                <a class="btn-primary learn-more">
+                    Learn more 
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+            </div>
+            <div class="contacts-img">
+                <img src="images light version\detailed_explanation_bottom_img.svg" alt="">
+        </div>
+           
+    </div>
+    
+    <div class="right-explanation">
+        <div class="september-forecast-img">
+            <img src="images light version\detailed_explanation_top_picture.svg" alt="">
+        </div>
+        <div class="heading">
+            <h3>Receive payment from international bank details</h3>
+        </div>
+        
+        <div class="content-left">
+            <img src="images light version\vektor_creditcard.svg" alt="">
+            <p>Manage your payments online. Mollis congue egestas egestas fermentum fames.</p>
+            <a class="btn-primary learn-more">
+                Learn more
+                <i class="fa-solid fa-arrow-right"></i>
+            </a>
+        </div>
+        <div class="content-right">
+            <img src="images light version\vektor_cashback.svg" alt="">
+            <p>A elem  entur and imperdiet enim, pretium etiam facilisi aenean quam mauris.</p>
+        </div>
+    </div>    
+</div>
+
+</section>
+
+<!--REVIEWS-->
+<section class="reviews">
+    <div class="container">
+        <div class="heading">
+            <h2>Clients are Loving Our App</h2>
+        </div>
+        <div class="review-box">
+                <img class="quotes" src="images light version\quotes.svg" alt="">
+                <img class="rating" src="images light version\rating_Fannie.svg" alt="">
+                <p class="comment">Sit pretium aliquam tempor, orci dolor sed maecenas rutrum sagittis.
+                Laoreet posuere rhoncus, egestas lacus, egestas justo aliquam vel. Nisi vitae lectus hac hendrerit. 
+                Montes justo turpis sit amet.</p>
+                
+            <div class="reviewer">
+                <img class="avatar" src="images light version\avatar_fannie.svg" alt="">
+                <div class="signature">
+                <p class="reviewer-name">Fannie Summers
+                <p class="reviewer-job">Designer</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="review-box">
+            <img class="quotes" src="images light version\quotes.svg" alt="">
+            <img class="rating" src="images light version\rating_Albert.svg" alt="">
+            <p class="comment">Nunc senectus leo vel venenatis accumsan vestibulum sollicitudin amet 
+                porttitor. Nisl bibendum nulla tincidunt eu enim ornare dictumst sit amet. 
+                Dictum pretium dolor tincidunt egestas eget nunc.</p>
+            
+        <div class="reviewer">
+            <img class="avatar" src="images light version\avatar_albert.svg" alt="">
+            <div class="signature">
+            <p class="reviewer-name">Albert Flores
+            <p class="reviewer-job">Developer</p>
+            </div>
+        </div>
+    </div>
+
+    </div>
+
+ </section>
+
+ <!--FAQS-->
+ <section class="faqs">
+    
+    <div class="container">
+
+            <div class="heading">
+                <h2>Any questions?<span> Check out the FAQs</span></h2>
+                <p>Still have unanswered questions and need to get in touch?</p>    
+            </div>
+
+        <div class="faqs-accordion">
+
+                 <div class="accordion-item">
+                        <a class="question" href="#">Is any of my personal information stored in the App?
+                            <img class="drop-arrow-purple mobile-active" src="images light version\dropdown-purple.svg" alt="">
+                            <img class="drop-arrow table-desktop-active" src="images light version\download_arrow_faqs.svg" alt="">
+                        </a>
+                    <div class="accordion-answer mobile">
+                        <p>Nunc duis id aenean gravida tincidunt eu, tempor ullamcorper. Viverra aliquam arcu, viverra et,
+                            cursus. Aliquet pretium cursus adipiscing gravida et consequat lobortis arcu velit. Nibh pharetrafermentum duis accumsan lectus non. Massa
+                            cursus molestie lorem scelerisque pellentesque. Nisi, enim, arcu purus gravida adipiscing euismod montes, duis egestas. Vehicula eu etiam quam
+                            tristique tincidunt suspendisse ut consequat.</br> </br> 
+                            Ornare senectus fusce dignissim ut. Integer consequat in eu tortor, faucibus et lacinia
+                            posuere. Turpis sit viverra lorem suspendisse lacus aliquam auctor vulputate. Quis egestas
+                            aliquam nunc purus lacus, elit leo elit facilisi. Dignissim amet adipiscing massa integer.</p>
+                    </div> 
+                </div>
+
+            <div class="accordion-item">
+                <a class="question" href="#">What formats can I download my transaction history in?
+                    <img class="drop-arrow" src="images light version\download_arrow_faqs.svg" alt="">
+                </a>
+                <div class="accordion-answer">
+
+                </div>
+            </div>
+                 
+
+            <div class="accordion-item">
+                <a class="question" href="#">Can I schedule future transfers?
+                    <img class="drop-arrow-purple table-desktop-active" src="images light version\dropdown-purple.svg" alt="">
+                    <img class="drop-arrow mobile-active" src="images light version\download_arrow_faqs.svg" alt="">
+                </a>
+                    
+                <div class="accordion-answer tablet-desktop">
+                    <p>Nunc duis id aenean gravida tincidunt eu, tempor ullamcorper. Viverra aliquam arcu, viverra et, 
+                        cursus. Aliquet pretium cursus adipiscing gravida et consequat lobortis arcu velit. 
+                        Nibh pharetra fermentum duis accumsan lectus non. Massa cursus molestie lorem scelerisque 
+                        pellentesque. Nisi, enim, arcu purus gravida adipiscing euismod montes, 
+                        duis egestas. Vehicula eu etiam quam tristique tincidunt suspendisse ut consequat.</p>
+                </div>        
+            </div>
+
+            <div class="accordion-item">
+                <a class="question" href="#">When can I use Banking App services?
+                    <img class="drop-arrow active" src="images light version\download_arrow_faqs.svg" alt="">
+                </a>
+                    
+                <div class="accordion-answer">
+    
+                </div>        
+            </div>
+
+            <div class="accordion-item">
+                <a class="question" href="#">Can I create my own password that is easy for me to remember?
+                    <img class="drop-arrow active" src="images light version\download_arrow_faqs.svg" alt="">
+                </a>
+                    
+                <div class="accordion-answer">
+    
+                </div>        
+            </div>
+
+            <div class="accordion-item">
+                <a class="question" href="#">What happens if I forget or lose my password?
+                    <img class="drop-arrow active" src="images light version\download_arrow_faqs.svg" alt="">
+                </a>
+                    
+                <div class="accordion-answer">
+
+                </div>        
+            </div>
+            
+        </div>
+
+
+        <div class="contact-area">
+
+            <a class="btn-primary">Contact us now</a>
+                
+            <div class="contact-box">
+                <img src="images light version\icon_phone.svg" alt="">
+                <p class="small-text">Still have questions?</p>
+                <a href="#" class="contact-phone">
+                    Contact us 
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+            </div>
+
+            <div class="contact-box">
+                <img src="images light version\icon_chat.svg" alt="">
+                <p class="small-text">Don't like phone calls?</p>
+                <a href="#" class="contact-chat">
+                    Contact us 
+                <i class="fa-solid fa-arrow-right"></i>
+                </a>
+            </div>
+
+        </div>
+
+    </div>
+
+ </section>
+ 
+ <!--SUBSCRIPTION SECTION-->
+ <section class="subscription">
+    <div class="container">
+        <div class="subscription-wrapper">
+            <div class="subscription-heading">
+                <img src="images light version/subscription-icon-1.svg fill.svg" alt="">
+                <h4>Subscribe to our newsletter <span class="desktop-heading"> to stay informed about our latest updates</span></h4>
+            </div>
+
+            <div class="subscription-email-input">
+                <img class="subscription-icon" src="images light version\vector_email_subscription.svg" alt="">
+                <input type="text" class="email-input" placeholder="Your email">
+                <a href="#" class="btn-primary">Subscribe</a>
+            </div>
+        </div>
+
+    </div>
+  </section>
+
+</main>
+<!--FOOTER-->
+<footer>   
+    <div class="container" >
+    <p class="copyright">© 2024 Silicon. All rights reserved.</p>
+    <p class="credit">Credit MadrasThemes</p>
+    </div> 
+</footer>
+</div>
+<script src="https://kit.fontawesome.com/771aedd07a.js" crossorigin="anonymous"></script>
+<script src="darkmode.js"></script>
+</body>
+</html>
+
+   

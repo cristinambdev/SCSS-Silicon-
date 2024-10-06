@@ -1,0 +1,44 @@
+
+@mixin btn {
+    background-color: $color-primary;
+    color: $color-white;
+    padding: 0.5rem 1.2rem;
+    border-radius: $base-border-radius;
+    border-style: $base-border-style;
+    cursor: $base-cursor; 
+    text-decoration: $base-text-decoration;
+
+    &:hover{
+        background-color: $color-gray;
+      }
+
+  }
+
+  @mixin btn-app {
+    background-color: $color-dark;
+    color: $color-white;
+    padding: 0.8rem;
+    border-radius: $base-border-radius;
+    cursor: $base-cursor;
+
+    @include flexbox;
+   
+
+    &:hover {
+        background-color: $color-primary;;
+        color: $color-white;
+    }
+}
+  
+@mixin btn-circle {
+    color: $color-dark;
+    gap: .7rem;
+    text-decoration: $base-text-decoration;
+    margin-top: 2rem;
+
+    @include flexbox;
+
+}
+
+
+

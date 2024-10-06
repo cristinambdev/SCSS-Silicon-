@@ -1,0 +1,53 @@
+@mixin display1 {
+    font-size: 5rem;
+    color: $color-dark;
+    font-weight: 800;
+}
+
+@mixin display2 {
+    font-size: 4.5rem;
+    color: $color-dark;
+    font-weight: 800;
+}
+
+@mixin display3 {
+    font-size: 4rem;
+    color: $color-dark;
+    font-weight: 800;
+}
+
+@mixin display4 {
+    font-size: 3.5rem;
+    color: $color-dark;
+    font-weight: 800;
+}
+
+@mixin display5 {
+    font-size: 2.6rem;
+    color: $color-dark;
+    font-weight: 800;
+}
+
+@mixin display6 {
+    font-size: 2.1rem;    
+    color: $color-dark;
+    font-weight: 800;
+}
+
+@mixin display7 {
+    font-size: 1.75rem;    
+    color: $color-dark;
+    font-weight: 800;
+}
+
+@mixin display8 {
+    font-size: 1.6rem;    
+    color: $color-dark;
+    font-weight: 800;
+}
+
+@mixin display9 {
+    font-size: 1.125rem;    
+    color: $color-dark;
+    font-weight: 800;
+}

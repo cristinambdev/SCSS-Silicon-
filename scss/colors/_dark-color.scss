@@ -1,0 +1,38 @@
+/*dark theme
+$color-primary:#6366F1;
+$color-dark:#0B0F19;
+$color-gray:#9397AD;
+$color-white:#FFFFFF;
+$color-bold: #131022;
+$color-text: #585C7B;
+$color-nav-text: #33354D;
+$color-text: #565973;
+$color-border-gray: #E2E5F1;
+$color-bg2: #F3F6FF;
+$color-success: #22C55E;
+$color-input: #B4B7C9;
+*/
+
+.dark {
+
+// color-scheme: dark;
+
+
+$color-white:#0B0F19;
+$color-background-hero:#0B0F19;
+$color-bg2: rgba (255, 255, 255, 0.04);
+$color-bold: #FFFFFF; 
+$color-text: #FFFFFF;
+$color-nav-text: #FFFFFF;
+$color-dark: #FFFFFF;
+$color-input: #FFFFFF;
+$color-logo-bg: rgba (99, 101, 241, 0.08);
+
+
+.show-light {display:none;}
+.show-dark {display:block;}
+
+}
+
+.show-light {display:block;}
+.show-dark {display:none;}

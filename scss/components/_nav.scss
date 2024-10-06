@@ -1,0 +1,17 @@
+
+.navbar {
+    display: none; 
+    @include flexbox;
+  }
+  
+  .nav-link {
+    @include navigation-text;
+    text-decoration: none;
+    display: none;
+  }
+
+  @include desktop {
+    .nav-link {
+      display: block;
+    }
+  }

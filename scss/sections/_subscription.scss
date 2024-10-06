@@ -1,0 +1,103 @@
+.subscription-wrapper {
+    background-color: $color-bg2;
+    border-radius: $base-border-radius;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    gap: 2rem;  
+    padding-block: 2rem;
+    margin: 0 auto;
+
+
+
+
+    .subscription-heading {
+        display: flex;
+        width: 250px;
+        gap: .8rem;
+        
+        .desktop-heading {
+            display: none;
+          }
+
+            h4 {
+                @include display9;
+                padding-top: .5rem;
+
+                }  
+            }      
+       
+         .subscription-email-input {
+            display: flex;
+            position: relative;
+
+            .subscription-icon {
+                position: relative;
+                top: 50%;
+                left: 2rem;
+         }
+
+
+         .email-input {
+            border: .5px solid $color-border-gray;
+            padding-left: 2.5rem;
+            border-radius: .5em 0  0 .5em;
+            background-position: 10px 50%;
+            @include input-text;
+          }
+          
+            .btn-primary {
+              display: block;
+              border-radius: 0 .5em .5em 0;
+              padding: .8rem 1rem;
+            }
+          
+           
+
+           
+    }
+}
+      
+      
+
+    @include tablet {
+        .subscription-wrapper {
+        display: flex;
+        justify-content: space-between;
+        padding-inline: 2rem;
+        padding-block: 4rem;
+       
+            .subscription-heading {
+                width: 50%;
+                padding-left: 0;
+            }
+            .subscription-email-input {
+                padding: 1rem;
+            }
+        }
+      }
+
+    @include desktop {
+
+        .subscription-wrapper {
+
+            margin-bottom: 3rem;
+
+        .subscription-heading {
+            width: 70%;
+            @include flexbox;
+            gap: 2rem;
+
+            .desktop-heading {
+                display: block;
+            } 
+
+            h4 {
+                @include display8;
+                padding-top: 1rem;
+                } 
+              
+            } 
+
+     }
+    }

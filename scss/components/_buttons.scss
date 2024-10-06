@@ -1,0 +1,78 @@
+
+
+.btn-primary {
+    @include btn;
+    display: none;
+}
+
+.mobile-btn {
+    border: $base-border-style;
+    padding-top: .4rem;
+}
+
+.market-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+    .btn-app {
+        @include btn-app; 
+    }
+  }
+
+.discover-more-btn {
+    @include btn-circle;
+  }
+
+
+@include tablet {
+
+    .btn-app {
+        width: 90%;
+    }
+
+    .discover-more-btn {
+        justify-content: flex-start;
+        margin-bottom: 2rem;
+    }
+}
+
+@include desktop {
+
+    .btn-primary {
+        display: flex; 
+        align-items: center;
+        justify-content:center;   
+        gap: 1rem;
+    }
+
+    .mobile-btn {
+        display: none;
+    }
+
+    .market-buttons {
+        flex-direction: row;
+        padding-top: 1rem;
+
+        .btn-app {
+            width: 30%;
+        }
+    }
+
+    .discover-more-btn {
+        margin-top: 10rem;
+    
+        span {
+            font-size: 1rem;
+          }
+    }
+}
+
+    
+
+.btn-dropdown {
+}
+
+
+
+

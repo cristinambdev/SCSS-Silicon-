@@ -1,0 +1,48 @@
+.hero .phone-images {
+    position: relative;
+    display: none;
+    grid-area: phone-images;
+
+    .img-back {
+        position: absolute;
+        z-index: 1;
+        bottom:0;
+        right: 220px;
+        width: 70%;
+      }
+    
+    .img-front {
+        position: absolute;
+        z-index: 2;
+        bottom:0;
+        right: -10px;
+        width: 70%;
+      }
+}
+
+@include tablet {
+
+    .hero {
+        .phone-images {
+            display: block;
+        }
+    }
+}
+
+@include desktop {
+
+    .phone-images {
+
+        .img-back {
+            height: 80%;
+            
+        }
+    
+        .img-front {
+            height: 100%;
+        }
+
+    }
+}
+
+      

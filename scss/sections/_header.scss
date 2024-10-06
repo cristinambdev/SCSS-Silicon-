@@ -1,0 +1,20 @@
+header .container {
+    padding-block: $base-padding;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .header-left {
+      @include flexbox;
+      gap: 2rem;
+    }
+    
+    .header-right {
+     display: flex;
+      gap: 2rem;
+    }
+  }
+
+
+
+

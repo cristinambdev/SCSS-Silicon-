@@ -1,0 +1,58 @@
+@mixin lead-text {
+    font-size: 1.5rem;
+    color: $color-text;
+    font-weight: 400;
+}
+
+@mixin extralarge-text {
+    font-size: 1.25rem;
+    color: $color-text;
+    font-weight: 400;
+}
+
+
+@mixin large-text {
+    font-size: 1.125rem;
+    color: $color-text;
+    font-weight: 400;
+}
+
+@mixin medium-text {
+    font-size: 1rem;
+    color: $color-text;
+    font-weight: 400;
+}
+
+@mixin medium-text-bold {
+    font-size: 1rem;
+    color: $color-bold;
+    font-weight: 600;
+}
+
+@mixin small-text {
+    font-size: .9rem;
+    color: $color-text;
+    font-weight: 400;
+}
+
+@mixin extrasmall-text {
+    font-size: .7rem;
+    color: $color-text;
+    font-weight: 400;
+}
+
+@mixin navigation-text {
+    font-size: 1rem;
+    font-weight: 600;
+    color: $color-dark;
+
+    &:hover {
+        color: $color-primary;
+    }
+}
+
+@mixin input-text {
+    font-size: 1rem;
+    color: $color-input;
+    font-weight: 400;
+}

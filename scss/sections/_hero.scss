@@ -1,0 +1,101 @@
+
+.hero {
+    background: $color-background-hero;
+    padding-block: 5rem;
+
+
+    .container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-areas:    "headline "
+                                "content";
+      }
+      .headline {
+        grid-area: headline;
+        text-align: center;
+    
+        h1 {
+            @include display6;
+            padding-bottom: 2rem;
+        }
+      }
+
+      .content {
+        grid-area: content;
+        text-align: center;
+    
+          p {
+             @include extralarge-text;
+             padding-bottom: 2.5rem;
+            }
+          }
+}
+
+
+
+
+
+@include tablet {
+    .hero {
+        padding-bottom: 0;
+
+        .container {
+            grid-template-columns: 1fr 1fr;
+            grid-template-areas:    "headline headline"
+                                    "content phone-images";
+            
+            h1 {
+                @include display5;
+                padding-block: 1rem;
+
+                span {
+                    display: block;
+                   }
+            }
+        }
+       
+        .content {
+            text-align: left;
+
+            p {
+                padding-top: 5rem;
+                padding-right: 2rem;
+
+                span {
+                    display: block;
+                    padding-top: .2rem;
+                }
+        }
+    }
+}
+
+@include desktop {
+
+    .hero {
+    
+    .container {
+        margin-top: 2rem;
+        grid-template-columns: 2fr 2fr;
+        grid-template-areas:    "headline phone-images"
+                                "content phone-images";
+    
+    
+        h1 {
+            text-align: left;
+            padding-bottom: 0;
+            @include display4;
+                            
+            }
+    }
+
+
+   
+}
+
+}
+}
+
+
+     
+      
+

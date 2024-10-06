@@ -1,0 +1,64 @@
+.reviews {
+    background: $color-bg2;
+    display:none;
+  }
+  
+  .reviews .container {
+    display: flex;
+    gap: 2rem;
+    padding-block: 8rem;
+  
+    .heading {
+      width: 30%;
+      margin-right: 4rem;
+      
+      h2 {
+        @include display5;
+      }
+    }
+  
+    .comment {
+      @include large-text;
+      line-height: 1.8rem;
+    }
+  
+    .reviewer-job {
+      @include small-text;
+    }
+  
+    .review-box {
+      padding: 1.5rem;
+      position: relative;
+      z-index: 0;
+      background-color: $color-white;
+      box-shadow: 0 5px 10px #4d4a4a30 ;
+      width: 35%;
+  
+      border-radius: 8px;
+      .quotes {
+        position: absolute;
+        top: -30px;
+      }
+  
+      .rating {
+        padding-block: 1rem;
+      }
+    
+      .reviewer {
+        display: flex;
+        gap: .6rem;
+        padding-top: 1.5rem;
+      }
+  
+      .reviewer-name {
+        font-weight: 900;
+      }
+    }  
+  }
+
+  @include desktop {
+    .reviews {
+        display:block;
+    }
+  }
+  

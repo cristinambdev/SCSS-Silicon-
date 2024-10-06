@@ -1,0 +1,18 @@
+footer {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    @include small-text;
+
+    .container {
+        @include flexbox;
+         gap: 0.4rem;
+    }
+
+    .credit {
+      display:none;
+      
+      @media (min-width: 768px) {
+        display: block;  
+      }
+    }
+  }

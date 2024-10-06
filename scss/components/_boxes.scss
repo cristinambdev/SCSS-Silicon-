@@ -1,0 +1,19 @@
+//brands section
+logo-box {
+    border: 1px solid $color-border-gray;
+    border-radius: $base-border-radius;
+    height: 100px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+//faqs section
+contact-box {
+  border: .5px solid $color-border-gray;
+  padding: 1.5rem;
+  border-radius: 8px;
+  height: 12rem;
+  
+  }
