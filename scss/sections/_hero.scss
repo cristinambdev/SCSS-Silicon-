@@ -1,7 +1,7 @@
 
 .hero {
     background: $color-background-hero;
-    padding-block: 5rem;
+    padding-block: 2rem;
 
 
     .container {
@@ -46,7 +46,6 @@
             
             h1 {
                 @include display5;
-                padding-block: 1rem;
 
                 span {
                     display: block;
@@ -58,7 +57,7 @@
             text-align: left;
 
             p {
-                padding-top: 5rem;
+                padding-top: 2rem;
                 padding-right: 2rem;
 
                 span {

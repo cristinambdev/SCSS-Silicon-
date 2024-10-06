@@ -34,21 +34,6 @@ $color-bg2: #F3F6FF;
 $color-success: #22C55E;
 $color-input: #B4B7C9;
 */
-.dark .show-light {
-  display: none;
-}
-.dark .show-dark {
-  display: block;
-}
-
-.show-light {
-  display: block;
-}
-
-.show-dark {
-  display: none;
-}
-
 logo-box, .brand-box {
   border: 1px solid #E2E5F1;
   border-radius: 8px;
@@ -117,7 +102,7 @@ contact-box, .faqs .container .contact-area .contact-box {
 
 @media (min-width: 768px) {
   .btn-app {
-    width: 90%;
+    width: 75%;
   }
   .discover-more-btn {
     justify-content: flex-start;
@@ -323,7 +308,7 @@ header .container .header-right {
 
 .hero {
   background: linear-gradient(to bottom, #ffffff, #f6f5fa, #efeaf5, #e8e0ef, #eee2f5);
-  padding-block: 5rem;
+  padding-block: 2rem;
 }
 .hero .container {
   display: grid;
@@ -363,7 +348,6 @@ header .container .header-right {
     font-size: 2.6rem;
     color: #0B0F19;
     font-weight: 800;
-    padding-block: 1rem;
   }
   .hero .container h1 span {
     display: block;
@@ -372,7 +356,7 @@ header .container .header-right {
     text-align: left;
   }
   .hero .content p {
-    padding-top: 5rem;
+    padding-top: 2rem;
     padding-right: 2rem;
   }
   .hero .content p span {
